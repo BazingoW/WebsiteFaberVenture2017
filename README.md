@@ -28,3 +28,4 @@ See `License.md`
    [SQLYog Community]: <https://github.com/webyog/sqlyog-community/wiki/Downloads>
    [Wamp]: <http://www.wampserver.com/en/>
   
+ 
