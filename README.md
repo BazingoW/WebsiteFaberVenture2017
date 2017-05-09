@@ -1,4 +1,4 @@
-# Faber-Ventures-Challenge-2017
+# Faber-Ventures-Challenge-2017-João-Ramiro
 
 This website was made for the faber ventures challenge, it was made from scratch using the laravel framework
 
@@ -14,7 +14,7 @@ This website was made for the faber ventures challenge, it was made from scratch
 * run `php artisan migrate` to create tables in the database
 * run `ph artisan serve` to run server
 * in a browser go to `localhost:8000` and see the website rolling
-
+* optional: To set email, create mailtrap.io account and opden the Demo Inbox and put the SMTP details on the 'MAIL' fields in the `.env`
 
 ### Author
 
