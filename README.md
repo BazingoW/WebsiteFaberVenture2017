@@ -8,7 +8,8 @@ This website was made for the faber ventures challenge, it was made from scratch
 * Install [Wamp]
 * Install [Composer]
 * Create a New Database, this can be done via SQLyog by doing `Ctrl+D`, after having created a default connection
-* Go to the project folder and fill the 'DB' fields in `.env` with the settings of the database created.
+* Go to the project folder rename `.env.example` to `.env`
+* In the new `.env` change the DB settings to the settings of the database created.
 * Open the Command Prompt (Ctrl+R "cmd") and navigate to the project folder
 * run `php artisan migrate` to create tables in the database
 * run `ph artisan serve` to run server
