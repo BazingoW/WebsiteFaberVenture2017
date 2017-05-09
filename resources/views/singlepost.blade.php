@@ -47,7 +47,7 @@ FrontPage
 </div>
 </section>
 
-
+@if(Auth::check())
   <section class="row new-post">
     <div class="col-md-6 col-md-offset-3">
       <h3>What Link you would like to share?</h3>
@@ -63,7 +63,9 @@ FrontPage
       </form>
     </div>
   </section>
-
+  @else
+  Login to comment
+@endif
 
 
   <script type="text/javascript">

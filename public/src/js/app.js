@@ -97,7 +97,7 @@ $('.like').on('click', function(event) {
       //iterates all posts
       console.log(JSON.stringify(msg));
       if(posts.length!=0)
-    {  $.each(posts, function(key,value){ $( ".posts" ).append(  '<div class="col-md-6 col-md-offset-3 well">'+value.title+' Post: '+value.body+'</div>')
+    {  $.each(posts, function(key,value){ $( ".posts" ).append(  "<div class='col-md-6 col-md-offset-3 well'><div class='post' data-postid="+value.id+"><h4><b>" +value.title+ "</b></h4><h5>" +value.body +"</h5><div class='info'>Posted by" + "CoolReplaceGuy" +"on" + "cooldate"+ "</div><div class='interaction'><a href='#' class='like'>Upvote</a><a href='#' class='like'>Downvote</a> |<a href='#'>Show Article</a> | <a href='#' class='edit'>Edit</a> | <a href='#'>Delete</a>    | Score: -0</div> </div>  </div>")
   });
   }
       else {

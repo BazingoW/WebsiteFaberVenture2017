@@ -13,6 +13,7 @@ This website was made for the faber ventures challenge, it was made from scratch
 * Open the Command Prompt (Ctrl+R "cmd") and navigate to the project folder
 * run `php artisan migrate` to create tables in the database
 * run `ph artisan serve` to run server
+* Make sure you have wamp running
 * in a browser go to `localhost:8000` and see the website rolling
 * optional: To set email, create mailtrap.io account and opden the Demo Inbox and put the SMTP details on the 'MAIL' fields in the `.env`
 

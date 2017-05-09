@@ -93,10 +93,10 @@ $post = Post::find($id);
   public function getShowMorePost(Request $request)
   {
 $nSkip=$request['postsShown'];
-
+//$nSkip
   $posts=Post::orderBy('created_at','desc')->skip($nSkip)->take(30)->get(); //gets all posts from db, does a query
-
-    return response()->json(['posts'=>$posts],200);
+$userPosts='test';
+    return response()->json(['posts'=>$posts,'users'=>$userPosts],200);
   }
   public function postLikePost(Request $request)
     {
